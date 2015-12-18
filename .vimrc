@@ -1,6 +1,8 @@
 
 colorscheme darkblue
 
+set encoding=utf-8
+
 set ignorecase          " 大文字小文字を区別しない
 set smartcase           " 検索文字に大文字がある場合は大文字小文字を区別
 set incsearch           " インクリメンタルサーチ
