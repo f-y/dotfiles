@@ -55,6 +55,6 @@ export PATH=$PATH:$ANDROID_STUDIO_HOME/bin:$ACTIVATOR_HOME/bin
 
 # Plugins
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-bindkey '^k' autosuggest-accept
-bindkey '^y' autosuggest-execute
+bindkey '^j' autosuggest-accept
+bindkey '^o' autosuggest-execute
 
