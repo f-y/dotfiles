@@ -30,14 +30,14 @@ function rprompt-git-current-branch {
     branch_status="%F{yellow}!"
   elif [[ -n `echo "$st" | grep "^rebase in progress"` ]]; then
     # コンフリクトが起こった状態
-    echo "%F{red}!(no branch)"
+    echo "%F{red}!(no branch)%f"
     return
   else
     # 上記以外の状態の場合は青色で表示させる
     branch_status="%F{blue}"
   fi
   # ブランチ名を色付きで表示する
-  echo "${branch_status}[$branch_name]"
+  echo "${branch_status}[$branch_name]%f"
 }
 
 # プロンプトが表示されるたびにプロンプト文字列を評価、置換する
