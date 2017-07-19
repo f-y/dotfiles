@@ -86,12 +86,6 @@ alias gr=$HOME/bin/gr.sh
 alias 'll=ls -al'
 alias "clip=xclip -selection clipboard"
 
-export PATH=/home/fm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-export GOPATH=$HOME/work
-export ANDROID_STUDIO_HOME=$HOME/android-studio
-export ACTIVATOR_HOME=$HOME/activator-dist-1.3.10
-export PATH=$PATH:$ANDROID_STUDIO_HOME/bin:$ACTIVATOR_HOME/bin
-
 # Plugins
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^j' autosuggest-accept
